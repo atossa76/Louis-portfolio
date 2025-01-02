@@ -4,7 +4,7 @@
   --primary-background-color: #f8f1e7;
   --secondary-background-color: #f8f5f2;
   --primary-color: #8a9a5b;
-  --text-color: #333333;
+  --text-color: #636363;
 }
 
 body,
@@ -32,7 +32,27 @@ html {
 .top-menu a {
   font-family: var(--heading-font);
   font-size: 18px;
-  color: #696969;
+  color: var(--text-color);
   font-weight: 500;
   text-decoration: none;
+}
+
+/* Container for bottom-left links */
+.bottom-menu {
+  position: fixed; /* Fixes the position relative to the viewport */
+  bottom: 20px; /* Distance from the bottom of the screen */
+  left: 20px; /* Distance from the left side of the screen */
+  z-index: 10; /* Ensures it appears above other elements */
+}
+
+.bottom-menu a {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: 650;
+  margin-bottom: 10px; /* Space between links */
+  text-decoration: none; /* Removes underline */
+  color: var(--text-color) !important;
+}
+
+.gooz {
+  background-color: #efefef;
 }
