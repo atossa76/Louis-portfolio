@@ -7,8 +7,7 @@
   --text-color: #636363;
 }
 
-body,
-html {
+.main-page {
   margin: 0;
   padding: 0;
   height: 100%;
