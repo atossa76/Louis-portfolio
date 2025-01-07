@@ -55,3 +55,24 @@
 .gooz {
   background-color: #efefef;
 }
+
+.project-year {
+  font-weight: 300;
+}
+
+.project-title {
+  font-family: Merriweather;
+}
+
+.project-text {
+  text-align: right;
+  opacity: 0.7;
+  font-family: var(--text-font);
+}
+
+@media (max-width: 768px) {
+  .project-text {
+    text-align: left;
+    font-size: 16px;
+  }
+}
