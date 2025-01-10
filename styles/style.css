@@ -82,6 +82,19 @@ hr {
   text-align: end;
   margin-top: 50px;
 }
+
+.bio-text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.bio-text hr {
+  border-top: 0 solid currentColor !important;
+}
+
+.persona-image {
+  max-height: 600px;
+}
 @media (max-width: 768px) {
   .project-text {
     text-align: left;
