@@ -95,6 +95,24 @@ hr {
 .persona-image {
   max-height: 600px;
 }
+
+.contact-links {
+  color: var(--text-color);
+  transition: all 150ms ease-in-out;
+  font-size: 19px !important;
+}
+
+.contact-links:hover {
+  font-size: 22px !important;
+}
+
+.zahra {
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+.zahra a {
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   .project-text {
     text-align: left;
